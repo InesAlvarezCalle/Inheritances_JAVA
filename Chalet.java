@@ -45,7 +45,7 @@ class Chalet extends Casa {
 
     @Override
     public void mostrarDatos(){
-        System.out.println("El adosado tiene: \n" + this.getQpuertas() + " puertas.\n" + this.getQventanas() +
+        System.out.println("El chalet tiene: \n" + this.getQpuertas() + " puertas.\n" + this.getQventanas() +
                 " ventanas.\n" + this.getColor() + " color.\nTiene: " + this.mjardin + " metros de jardín.\nColor valla: "
                 + this.colorValla + ".\nMantenimiento: " + this.mantener);
         System.out.println("Es un chalet\n");
@@ -53,9 +53,9 @@ class Chalet extends Casa {
 
     @Override
     public String toString(){
-        return "CHALET: Cant. puertas --> " + this.getQpuertas() + "\nCant. ventanas --> " + this.getQventanas() +
+        return "\nCant. puertas --> " + this.getQpuertas() + "\nCant. ventanas --> " + this.getQventanas() +
                 "\nColor --> " + this.getColor() + "\nMentros jardín --> " + this.getMjardin() + "\nColor valla --> "
-                + this.getColorValla() + "\n";
+                + this.getColorValla() + "\nMantenimiento --> " + this.getMantener() + "\n";
     }
 
     public void pintar(String colorCasa, String colorValla){

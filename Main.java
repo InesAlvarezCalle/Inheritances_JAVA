@@ -5,7 +5,7 @@ public class Main {
         Adosado adosado1 = new Adosado(2, 4, "Gris", 1, false);
         Piso piso1 = new Piso(5, 7, "Blanco", 2, 2);
         Chalet chalet1= new Chalet(4, 40, "Azul", 18, "Blanco", 15);
-        Chalet chalet2= new Chalet(5, 50);
+        Chalet chalet2= new Chalet(5, 10, "Morado", 10, "Rojo", 5 );
 
         System.out.println("MOSTRAR DATOS");
         casa1.mostrarDatos();

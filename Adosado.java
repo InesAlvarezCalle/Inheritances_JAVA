@@ -34,7 +34,7 @@ class Adosado extends Casa{
 
     @Override
     public String toString(){
-        return "ADOSADO: Cant. puertas --> " + this.getQpuertas() + "\nCant. ventanas --> " + this.getQventanas() +
+        return "\nCant. puertas --> " + this.getQpuertas() + "\nCant. ventanas --> " + this.getQventanas() +
                 "\nColor --> " + this.getColor() + "\nCocheras --> " + this.getqCocheras() + "\n¿Tiene patio? "
                 + this.getPatio() + "\n";
     }

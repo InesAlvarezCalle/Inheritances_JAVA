@@ -43,6 +43,7 @@ class Casa {
     }
 
     public void mostrarDatos() {
+        System.out.println("La casa tiene:");
         System.out.println("NºPuertas: " + this.qpuertas);
         if (this.qventanas <= 0) {
             System.out.println("NºVentanas: N/A");
@@ -59,7 +60,7 @@ class Casa {
     }
 
     public String toString() {
-        return "CASA: \nPuertas: " + this.qpuertas + "\nVentanas: " + this.qventanas + "\nColor: " + this.color + "\n";
+        return "\nPuertas: " + this.qpuertas + "\nVentanas: " + this.qventanas + "\nColor: " + this.color + "\n";
     }
 
     public void pintar(String color){

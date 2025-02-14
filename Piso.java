@@ -33,7 +33,7 @@ class Piso extends Casa{
 
     @Override
     public String toString(){
-        return "PISO --> " + super.toString() + ". Número Planta --> " + this.nplanta +
-                ". Número balcones --> " + this.nbalcones + "\n";
+        return super.toString() + "Número Planta --> " + this.nplanta +
+                "\nNúmero balcones --> " + this.nbalcones + "\n";
     }
 }
