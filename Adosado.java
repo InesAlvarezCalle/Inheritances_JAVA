@@ -6,7 +6,6 @@ class Adosado extends Casa{
         super(puertas, ventanas, color);
         this.qCocheras = qCocheras;
         this.patio = patio;
-        System.out.println("Adosado inicializado");
     }
 
     public void setqCocheras(int x){
@@ -23,5 +22,20 @@ class Adosado extends Casa{
 
     public boolean getPatio(){
         return patio;
+    }
+
+    @Override
+    public void mostrarDatos(){
+        System.out.println("El adosado tiene: \n" + this.getQpuertas() + " puertas.\n" + this.getQventanas() +
+                " ventanas.\n" + this.getColor() + " color.\nTiene: " + this.qCocheras + " cocheras.\n¿Tiene patio? "
+                + this.patio);
+        System.out.println("Es un adosado\n");
+    }
+
+    @Override
+    public String toString(){
+        return "ADOSADO: Cant. puertas --> " + this.getQpuertas() + "\nCant. ventanas --> " + this.getQventanas() +
+                "\nColor --> " + this.getColor() + "\nCocheras --> " + this.getqCocheras() + "\n¿Tiene patio? "
+                + this.getPatio() + "\n";
     }
 }

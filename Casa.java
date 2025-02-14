@@ -12,7 +12,6 @@ class Casa {
         this.qpuertas = qp;
         this.qventanas = qf;
         this.color = col;
-        System.out.println("Casa inicializada");
     }
 
     public Casa(int qp){
@@ -60,6 +59,10 @@ class Casa {
     }
 
     public String toString() {
-        return "NªPuertas " + this.qpuertas;
+        return "CASA: \nPuertas: " + this.qpuertas + "\nVentanas: " + this.qventanas + "\nColor: " + this.color + "\n";
+    }
+
+    public void pintar(String color){
+        this.color = color;
     }
 }
